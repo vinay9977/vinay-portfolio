@@ -28,5 +28,20 @@ export const projectsData = [
     github: 'https://github.com/vinay9977/InsightFlow',
     demo: null,
     featured: true
+  },
+  {
+    name: 'Personal Portfolio Website',
+    tagline: 'Modern, Responsive Portfolio Built with React',
+    description: 'A sleek, professional portfolio website showcasing my projects, skills, and experience. Features smooth animations, mobile-responsive design, and optimized performance.',
+    tech: ['React', 'JavaScript', 'Tailwind CSS', 'GitHub Pages', 'Lucide Icons'],
+    impact: [
+      'Fully responsive design optimized for all devices',
+      'Smooth fade-in animations and interactive hover effects',
+      'Organized component architecture for easy maintenance',
+      'Deployed with CI/CD pipeline on GitHub Pages'
+    ],
+    github: 'https://github.com/vinay9977/vinay-portfolio',
+    demo: 'https://vinay9977.github.io/vinay-portfolio',
+    featured: true
   }
 ];
