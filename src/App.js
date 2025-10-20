@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
+import { Highlights } from './components/Highlights';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import { StickyContact } from './components/StickyContact';
 import { useScrollEffect } from './hooks/useScrollEffect';
 import './styles/App.css';
 
@@ -63,6 +65,7 @@ function App() {
 
       <div className="relative z-10">
         <div className="fade-in-section"><Hero scrollToSection={scrollToSection} /></div>
+        <div className="fade-in-section"><Highlights /></div>
         <div className="fade-in-section"><About /></div>
         <div className="fade-in-section"><Experience /></div>
         <div className="fade-in-section"><Projects /></div>
@@ -70,6 +73,9 @@ function App() {
         <div className="fade-in-section"><Contact /></div>
         <Footer />
       </div>
+
+      {/* Sticky Contact Button */}
+      <StickyContact />
     </div>
   );
 }
