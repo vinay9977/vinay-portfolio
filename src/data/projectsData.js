@@ -26,7 +26,7 @@ export const projectsData = [
       'Scalable architecture supporting millions of data points'
     ],
     github: 'https://github.com/vinay9977/InsightFlow',
-    demo: null,
+    demo: 'https://vinay77.pythonanywhere.com/',
     featured: true
   },
   {
