@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vinay-portfolio/static/css/main.9f94a6c7.css",
-    "main.js": "/vinay-portfolio/static/js/main.a71deb8d.js",
+    "main.js": "/vinay-portfolio/static/js/main.18bc65da.js",
     "index.html": "/vinay-portfolio/index.html",
     "main.9f94a6c7.css.map": "/vinay-portfolio/static/css/main.9f94a6c7.css.map",
-    "main.a71deb8d.js.map": "/vinay-portfolio/static/js/main.a71deb8d.js.map"
+    "main.18bc65da.js.map": "/vinay-portfolio/static/js/main.18bc65da.js.map"
   },
   "entrypoints": [
     "static/css/main.9f94a6c7.css",
-    "static/js/main.a71deb8d.js"
+    "static/js/main.18bc65da.js"
   ]
 }
