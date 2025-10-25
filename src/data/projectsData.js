@@ -11,7 +11,7 @@ export const projectsData = [
       'GitHub OAuth integration with 100+ repositories synced'
     ],
     github: 'https://github.com/vinay9977/CodeCritic',
-    demo: null,
+    demo: 'https://code-critic-fn81lq7eq-vinays-projects-c22223e9.vercel.app/dashboard',
     featured: true
   },
   {
