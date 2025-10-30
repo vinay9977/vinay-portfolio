@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, MapPin, Calendar, Award, TrendingUp } from 'lucide-react';
+import { Briefcase, MapPin, Award, TrendingUp } from 'lucide-react';
 import { experienceData } from '../data/experienceData';
 
 export const Experience = () => {
@@ -60,28 +60,21 @@ export const Experience = () => {
                         </div>
                       </div>
 
-                      {/* Period Badge */}
-                      <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg text-blue-700 text-sm font-semibold mb-6">
-                        <Calendar size={16} />
-                        {exp.period}
-                      </div>
-
                       {/* Achievements */}
-                      <div className="space-y-4">
-                        {exp.achievements.map((achievement, i) => (
-                          <div key={i} className="group/item flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
-                            <div className="flex-shrink-0 mt-1">
-                              <div className="w-2 h-2 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full group-hover/item:scale-150 transition-transform"></div>
-                            </div>
-                            <p className="text-gray-700 leading-relaxed flex-1">
-                              {achievement}
-                            </p>
-                          </div>
-                        ))}
+                      <div>
+                        <div className="flex items-center gap-2 mb-4">
+                          <Award size={20} className="text-purple-600" />
+                          <h4 className="text-lg font-semibold text-gray-900">Key Achievements</h4>
+                        </div>
+                        <ul className="space-y-3">
+                          {exp.achievements.map((achievement, achievementIdx) => (
+                            <li key={achievementIdx} className="flex items-start gap-3 text-gray-700">
+                              <TrendingUp size={16} className="text-green-500 mt-1 flex-shrink-0" />
+                              <span className="leading-relaxed">{achievement}</span>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
-
-                      {/* Decorative Corner Element */}
-                      <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 opacity-5 rounded-bl-full"></div>
                     </div>
                   </div>
                 </div>
@@ -90,16 +83,12 @@ export const Experience = () => {
           </div>
         </div>
 
-        {/* Career Highlights Summary */}
-        <div className="mt-20 bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-10 border-2 border-blue-200">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="p-3 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl">
-              <TrendingUp size={28} className="text-white" />
-            </div>
-            <h3 className="text-3xl font-bold text-gray-900">Career Highlights</h3>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Companies Worked With Showcase */}
+        <div className="mt-24">
+          <h3 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            Trusted by Industry Leaders
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center p-6 bg-white rounded-xl border border-blue-200 hover:shadow-lg transition-all">
               <div className="text-4xl font-bold text-blue-600 mb-2">HSBC</div>
               <p className="text-gray-600 font-medium">Global Banking Leader</p>
