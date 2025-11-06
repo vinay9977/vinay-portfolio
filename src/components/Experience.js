@@ -90,27 +90,27 @@ export const Experience = () => {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center p-6 bg-white rounded-xl border border-blue-200 hover:shadow-lg transition-all">
-              <div className="text-4xl font-bold text-blue-600 mb-2">HSBC</div>
-              <p className="text-gray-600 font-medium">Global Banking Leader</p>
+              <div className="text-4xl font-bold text-blue-600 mb-2">General Motors</div>
+              <p className="text-gray-600 font-medium">Automotive Leader</p>
               <p className="text-sm text-gray-500 mt-2">Enterprise Scale</p>
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl border border-purple-200 hover:shadow-lg transition-all">
-              <div className="text-4xl font-bold text-purple-600 mb-2">Flipkart</div>
-              <p className="text-gray-600 font-medium">E-commerce Giant</p>
-              <p className="text-sm text-gray-500 mt-2">Millions of Users</p>
+              <div className="text-4xl font-bold text-purple-600 mb-2">Elevance Health</div>
+              <p className="text-gray-600 font-medium">Healthcare Innovation</p>
+              <p className="text-sm text-gray-500 mt-2">HIPAA Compliance</p>
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl border border-green-200 hover:shadow-lg transition-all">
-              <div className="text-4xl font-bold text-green-600 mb-2">GCP</div>
-              <p className="text-gray-600 font-medium">Cloud Expertise</p>
-              <p className="text-sm text-gray-500 mt-2">Airflow & Dataflow</p>
+              <div className="text-4xl font-bold text-green-600 mb-2">HSBC</div>
+              <p className="text-gray-600 font-medium">Global Banking Leader</p>
+              <p className="text-sm text-gray-500 mt-2">Financial Systems</p>
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl border border-orange-200 hover:shadow-lg transition-all">
-              <div className="text-4xl font-bold text-orange-600 mb-2">Java</div>
-              <p className="text-gray-600 font-medium">Enterprise Apps</p>
-              <p className="text-sm text-gray-500 mt-2">Spring Boot Expert</p>
+              <div className="text-4xl font-bold text-orange-600 mb-2">GCP</div>
+              <p className="text-gray-600 font-medium">Cloud Expertise</p>
+              <p className="text-sm text-gray-500 mt-2">Airflow & Dataflow</p>
             </div>
           </div>
         </div>
